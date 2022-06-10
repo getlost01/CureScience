@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+}
+
+.logoheader{
+    width: 160px;
+}
+.headpost{
+   background-image:url('/resource/image_processing20210901-27357-4esq1o.gif') ;
+   background-color: #1e0731;
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+}
+.headpost h4{
+   font-size: 16px;
+}
+
+.headpost p{
+    font-size: 11px
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 0;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #63d4d9;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #35959a;
+  }
+
+  .square-box{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 20px;
+  }
+  .square-box img{
+      width: 100px;
+  }
+#footer p{
+  font-size: 12px;
+}
+#footer h5{
+    font-size: 16px;
+}
+.bold{
+    font-weight: bold;
+}
+ 
