@@ -1,9 +1,9 @@
 .hero {
     display: inline-block;
     position: relative;
-    width: 400px;
-    min-width: 400px;
-    height: 400px;
+    width: 300px;
+    min-width: 300px;
+    height: 300px;
     border-radius: 30px;
     overflow:hidden;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
@@ -30,9 +30,9 @@
   }
   
   .hero-logo {
-    height: 80px;
-    width: 80px;
-    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
     background-color: #fff;
     position: absolute;
     bottom: 30%;
@@ -48,9 +48,9 @@
   .hero-description {
     position: absolute;
     color: #fff;
-    font-weight: 900;
     left: 150px;
-    bottom: 26%;
+    font-size: 14px;
+    bottom: 20%;
   }
   
   .hero-btn {
@@ -58,22 +58,28 @@
     color: #fff;
     right: 30px;
     bottom: 10%;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: 1px solid #fff;
   }
   
   .hero-btn a {
     color: #fff;
+    text-decoration: none;
+  }
+
+  .hero-btn:hover{
+    transform: scale(1.03);
   }
   
   .hero-date {
     position: absolute;
     color: #fff;
     left: 30px;
+    font-size: 15px;
+    font-weight: bold;
     bottom: 10%;
   }
 
-  
 
   .btn i:before {
     width: 14px;
